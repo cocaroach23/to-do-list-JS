@@ -8,11 +8,11 @@ if (username) {
     myTitle.innerHTML = "Неавторизороанный пользователь"
 }
 
-let number = 0
 
-for (let number = 0; number < 5; number++){
+
+/*for (let number = 0; number < 5; number++){
     alert(number)
-}
+}*/
 
 function readTask() {
     let myContainer = document.getElementById("container")
@@ -20,7 +20,12 @@ function readTask() {
 
     let value = myInput.value
 
+    let number = 0
     number++
+
+    for (let number = 0; number < 5; number++){
+        alert(number)
+    }
 
     myContainer.innerHTML = myContainer.innerHTML + "<p>" + number  + value + "</p>"
 }
