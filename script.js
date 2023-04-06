@@ -1,4 +1,4 @@
-let username = prompt ("Введите своё имя в дательной падеже")
+let username = prompt ("Введите своё имя в дательной падеже")  
 
 let myTitle = document.getElementById('title')
 
